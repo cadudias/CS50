@@ -27,6 +27,7 @@ int main(void)
     checkCardNumber(CC_NUMBER);
 }
 
+
 void checkCardNumber(long long CC_NUMBER)
 {
     if( (CC_NUMBER >= 4000000000000 && CC_NUMBER < 5000000000000) || 
@@ -41,6 +42,7 @@ void checkCardNumber(long long CC_NUMBER)
         printf("INVALID\n");
     }
 }
+
 
 int doubleEveryOtherNumberStartingFormSecondToLast(long long CC_NUMBER)
 {
@@ -69,6 +71,7 @@ int doubleEveryOtherNumberStartingFormSecondToLast(long long CC_NUMBER)
     
     return x2_prod;
 }
+
 
 int sumNotMultipliedNumbers(long long CC_NUMBER)
 {
